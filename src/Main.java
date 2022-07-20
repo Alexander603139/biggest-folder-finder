@@ -10,7 +10,9 @@ public class Main {
 //        thread.start();
 //        thread2.start();
 
-        String folderPath = "C:\\Users\\user\\Desktop\\КНИГИ_IT";
+//        String folderPath = "C:\\Users\\user\\Desktop\\КНИГИ_IT";
+        String folderPath = "C:\\Users\\Никита\\Desktop\\into Python";
+
         File file = new File(folderPath);
         long start = System.currentTimeMillis(); // время запуска
         FolderSizeCalculator calculator = new FolderSizeCalculator(file);
