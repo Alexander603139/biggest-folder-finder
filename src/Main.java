@@ -21,6 +21,7 @@ public class Main {
         System.out.println(size);
 
 //        System.out.println(getFolderSize(file));// размер директории
+
         long duration = System.currentTimeMillis() - start; // продолжительность выполнения
         System.out.println(duration); // в миллисекундах
 
